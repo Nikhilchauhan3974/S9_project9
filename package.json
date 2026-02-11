@@ -1,14 +1,13 @@
-{
-  "name": "project9",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+"homepage": "https://Nikhilchauhan3974.github.io/S9_project9",
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
+
   "dependencies": {
     "bootstrap": "^5.3.8",
     "react": "^19.2.0",
@@ -28,3 +27,6 @@
     "vite": "^7.2.4"
   }
 }
+"homepage": "https://github.com/Nikhilchauhan3974/S9_project9",
+
+
